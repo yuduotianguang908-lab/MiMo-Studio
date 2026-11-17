@@ -1,0 +1,23 @@
+# 环境变量与本地密钥配置
+.env
+.env.*
+*.key
+*.pem
+config.local.*
+proxy.json
+
+# 导出的聊天记录与本地日志/临时文件
+*-session.json
+*-session.md
+exports/
+chats/
+*.log
+*.tmp
+*.bak
+
+# 编辑器与操作系统生成文件
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
